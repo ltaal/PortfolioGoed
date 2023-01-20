@@ -1,0 +1,368 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border:0px;
+    margin:0px;
+    padding:0px;
+    background-color: #FFF7AD;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav a {
+    padding:1vw;
+    flex: 1;
+    text-align: center;
+    background-color: #604D53;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color:white;
+  }
+  nav a:hover {
+    background-color: #FFF7AD;
+    color: #604D53;
+  }
+  
+.home{
+    background-image: url(../img/knifechickcover.jpg);
+    background-position: center;
+    background-size: cover;
+    border-width: 5px;
+    border-color: #604D53;
+    border-style: solid;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+}
+.home h1{
+    color:#604D53;
+    display:flex;
+    justify-content:center;
+    padding: 10vw;
+    font-size: 3vw;
+}
+.Info {
+    background-color:#604D53;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 1vw;
+}
+.homemain {
+    display:flex;
+    justify-content: space-around;
+    background-color: #FFF7AD;
+}
+.homemain img {
+    width:20vw;
+    height: 30vw;
+    object-fit: cover;
+    margin-top: 3vw;
+    border-width: 5px;
+    border-color: #604D53;
+    border-style: solid;
+    border-radius: 10%;
+}
+.homemain img:hover {
+      border-color: white;
+}
+
+.films {
+    background-image: url(../img/HTTYD1.png);
+    background-position: center;
+    background-size: cover;
+    border-width: 5px;
+    border-color: #604D53;
+    border-style: solid;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+}
+.films h1{
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding: 10vw;
+    font-size: 3vw;
+}
+.fgmain {
+    background-color: #FFF7AD;
+}
+.fgmain h1 {
+    display: flex;
+    justify-content: center;
+}
+.fgblok {
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+    max-width: 80vw;
+}
+.fgblok img {
+    width: 20vw;
+    height: 25vw;
+    object-fit: cover;
+    margin-top: 5vw;
+    border-width: 10px;
+    border-color: #604D53;
+    border-style: solid;
+}
+.fgbloktext {
+    text-align: center;
+    padding: 1vw;
+    background-color: #604D53;
+    color: white;
+    margin-top: 5vw;
+    border-width: 5px;
+    border-color: #604D53;
+     border-style: solid;
+    font-size: 2vw;
+}
+.fgbloktext p{
+    font-size: 1.5vw;
+}
+.Games {
+    background-image: url(../img/old_testchamber.webp);
+    background-position: center;
+    background-size: cover;
+    border-width: 5px;
+    border-color: #604D53;
+    border-style: solid;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+}
+.Games h1{
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding: 10vw;
+    font-size: 3vw;
+}
+
+.skills {
+    background-image: url(../img/skills.jpg);
+    background-position: center;
+    background-size: cover;
+    border-width: 5px;
+    border-color: #604D53;
+    border-style: solid;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+}
+.skills h1{
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding: 10vw;
+    font-size: 3vw;
+}
+.sh1{
+        margin-top: 10vw;
+        font-size:2vw;
+        margin-bottom:0vw;
+}
+.sh1 h1{
+    color: #604D53;
+    margin-bottom:0vw;
+}
+.sblok {
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+    max-width: 80vw;
+}
+.sblok img {
+    width: 30vw;
+    height: 20vw;
+    object-fit: cover;
+    margin-top: 2.5vw;
+    border-width: 10px;
+    border-color: #604D53;
+    border-style: solid;
+}
+.sbloktext {
+    text-align: center;
+    padding: 1vw;
+    background-color: #604D53;
+    color: white;
+    margin-top: 2.5vw;
+    border-width: 5px;
+    border-color: #604D53;
+     border-style: solid;
+    font-size: 2vw;
+}
+.sbloktext p{
+    font-size: 1.5vw;
+}
+
+.contact {
+    background-image: url(../img/goeie\ contact\ header.jpeg);
+    background-position: top;
+    background-size: cover;
+    border-width: 5px;
+    border-color: #604D53;
+    border-style: solid;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+}
+.contact h1{
+        color:white;
+        display:flex;
+        justify-content:center;
+        padding: 10vw;
+        font-size: 3vw;
+}
+form{
+    background-color:#604D53;
+    margin: 7vw;
+    text-align: center;
+    padding:3vw;
+}
+form div{
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top:4vw;
+    margin-bottom:4vw;
+    margin-right:10vw;
+    margin-left:10vw;
+    color:white;
+}
+input{
+    width: 20vw;
+    font-size: 1.5vw;;
+}
+select{
+    width: 20vw;
+    font-size: 1.5vw;
+}
+#bericht {
+    height: 10vw;
+    text-align: center ;
+}
+button {
+    font-size: 2vw;
+}
+
+.verzonden {
+    color: white;
+    background-color: #604D53;
+    margin:5vw;
+    padding: 23vw;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
+
+footer{
+    background-color:#604D53;
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-top:3vw;
+    
+}
+footer h1 {
+font-size:1vw;
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a{
+        font-size: 5vw;
+    }
+
+    .home {
+        padding: 8vw;
+    }
+    .home h1 {
+        font-size: 10vw;
+    }
+    .Info h2{
+        font-size: 3vw;
+    }
+    .homemain {
+        flex-direction: column;
+        margin-left:25vw;
+        margin-bottom: 20vw;
+    }
+    .homemain img{
+        margin-top: 20vw;
+        width:50vw;
+        height: 70vw;
+
+    }
+
+    .films {
+        padding: 8vw;
+    }
+    .films h1 {
+        font-size: 10vw;
+    }
+    .fgblok img {
+        display: none;
+    }
+    .fgbloktext {
+        font-size: 6vw;
+    }
+    .fgbloktext p{
+        font-size: 4vw;
+    }
+    .Games {
+        padding: 8vw;
+    }
+    .Games h1 {
+        font-size: 10vw;
+    }
+
+    .contact {
+        padding: 8vw;
+    }
+    .contact h1 {
+        font-size: 10vw;
+    }
+    form div{
+        flex-direction: column;
+        font-size:5vw;
+        padding-bottom:3vw;
+    }
+    input{
+        margin-left:10vw;
+        margin-top:3vw;
+        width: 40vw;
+        font-size: 4vw;;
+    }
+    select{
+        margin-left:10vw;
+        margin-top:3vw;
+        width: 40vw;
+        font-size: 4vw;;
+    }
+    #bericht {
+        margin-left:10vw;
+        margin-top:3vw;
+        width: 40vw;
+        font-size: 4vw;;
+    }
+    button {
+        margin-left:10vw;
+        margin-top:3vw;
+        width: 40vw;
+        font-size: 4vw;
+    }
+
+    .verzonden{
+        padding-bottom: 70vw;
+        padding-top: 70vw;
+        font-size: 5vw;
+    }
+
+    footer h1{ 
+        font-size: 2vw;
+    }
+}

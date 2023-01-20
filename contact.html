@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="films.html">Films</a>
+        <a href="games.html">Games</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header class="contact">
+        <h1>Contact</h1>
+    </header>
+    <section class="Info">
+        <h2>Om contact met mij op te nemen kunt u dit formulier invullen</h2>
+    </section>
+    <main class="contactmain">
+        <form action="verzonden.html">
+            <div>
+            <label for="naam">Naam:</label>
+            <input type="text" id="naam" name="naam" placeholder="Voor- en Achternaam" required>
+            </div>
+            <div>
+            <label for="datum">Geboortedatum:</label>
+            <input type="date" id="datum" name="datum">
+            </div>
+            <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="studentnummer@hr.nl" required>
+            </div>
+            <div>
+            <label for="reden">Reden van contact</label>
+            <select id="reden" name="reden" required>
+            <option selected disabled value="none">Kies een reden</option>
+            <option value="vraag">Vraag</option>
+            <option value="anders">Andere reden</option>
+            </select>
+            </div>
+            <div>
+            <label for="bericht">Bericht:</label>
+            <input type="text" id="bericht" name="bericht" placeholder="Schrijf hier uw bericht." required>
+            </div>
+            <div>
+            <button type="submit">Versturen</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h1>Door: Lindsey Taal</h1>
+    </footer>
+</body>
+</html>
